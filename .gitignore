@@ -1,4 +1,4 @@
-## https://github.com/expressjs/express/blob/master/.gitignore
+## Express https://github.com/expressjs/express/blob/master/.gitignore
 
 # OS X
 .DS_Store*
@@ -14,16 +14,38 @@ Desktop.ini
 .directory
 *~
 
-
 # npm
 node_modules
 package-lock.json
 *.log
 *.gz
-
+nodemon-1.19.2
 
 # Coveralls
 coverage
 
 # Benchmarking
 benchmarks/graphs
+
+
+## Vue https://github.com/vuejs/vue/blob/master/.gitignore
+
+.DS_Store
+node_modules
+*.log
+explorations
+TODOs.md
+dist/*.gz
+dist/*.map
+dist/vue.common.min.js
+test/e2e/reports
+test/e2e/screenshots
+coverage
+RELEASE_NOTE*.md
+dist/*.js
+packages/vue-server-renderer/basic.js
+packages/vue-server-renderer/build.js
+packages/vue-server-renderer/server-plugin.js
+packages/vue-server-renderer/client-plugin.js
+packages/vue-template-compiler/build.js
+.vscode
