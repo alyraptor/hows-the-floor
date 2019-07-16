@@ -1,0 +1,29 @@
+{
+  "name": "what-the-floor",
+  "version": "1.0.0",
+  "description": "Web app for tracking floor types in skate venues",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alyraptor/what-the-floor.git"
+  },
+  "author": "Aly Richardson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alyraptor/what-the-floor/issues"
+  },
+  "homepage": "https://github.com/alyraptor/what-the-floor#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
